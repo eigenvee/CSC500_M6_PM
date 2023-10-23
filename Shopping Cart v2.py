@@ -10,13 +10,13 @@ class ShoppingCart:
         self.cart_items = []
 
         # ************** test item ********************
-        ''
+        '''
         self.cart_items.append(ItemToPurchase())
         self.cart_items[0].item_name = 'Spam'
         self.cart_items[0].item_description = 'Pink'
         self.cart_items[0].item_price = 99.99
         self.cart_items[0].item_quantity = 99
-        ''
+        '''
         # ************** test item ********************
 
     def add_item(self, item):
